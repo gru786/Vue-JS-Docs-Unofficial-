@@ -1,0 +1,39 @@
+name: vue_js_docs
+description: "Access Vue.js documentation on your mobile with Vue JS (Unofficial)."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  webview_flutter: ^4.8.0
+  internet_connection_checker_plus: ^2.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/vueIcon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+
+flutter:
+
+
+  uses-material-design: true
+  
+
+  
